@@ -2,7 +2,7 @@
 <space><space>
 + redis cloud server
 + rabbitmq cloud server
-  +--------------------------
++--------------------------
   
 + Rabbitmq:
 + Giải quyết khi tràn msg do msg bị lỗi nhưng vẫn nằm trong queue thì hẹn time chờ rồi xóa: expiration: "10000"
