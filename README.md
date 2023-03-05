@@ -10,5 +10,5 @@
 + Mô hình Publish Subscribe : Gửi msg cho exchange rồi exchange những queue subscribe và tự động del queue trong list queue nếu bị die
 + TOPIC : Tùy chọn để sen msg cho 1 số người trong nhiều người đăng kí
 +--------------------------
-+ Redi:
++ Redis:
 + Api get,set data
