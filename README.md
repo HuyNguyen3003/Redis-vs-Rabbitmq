@@ -1,7 +1,7 @@
 # Redis vs Rabbitmq
 + redis cloud server
 + rabbitmq cloud server
-
+-
 + rabbitmq
 -----------------------------
 + Giải quyết khi tràn msg do msg bị lỗi nhưng vẫn nằm trong queue thì hẹn time chờ rồi xóa: expiration: "10000"
@@ -10,7 +10,7 @@
 + TOPIC : Tùy chọn để sen msg cho 1 số người trong nhiều người đăng kí
 
 
-
+-
 + redis
 ------------------------------
 + Api get,set data
