@@ -10,6 +10,7 @@ const that = module.exports = {
             await client.set(key, value, (err, rs) => {
                 return !err ? resole(rs) : reject(err)
             })
+            console.log("OK")
         } catch (e) {
             console.log(e)
         }
@@ -17,6 +18,7 @@ const that = module.exports = {
     getPromise: async (key) => {
         try {
             const data = await client.get(key)
+            console.log(data)
             return data
         } catch (e) {
             console.log(e)

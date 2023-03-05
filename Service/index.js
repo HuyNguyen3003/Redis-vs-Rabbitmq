@@ -10,7 +10,7 @@ require('./src/DB/init.redis')
 
 
 //Router
-const Router = require("./src/routes/Router")
+const Router = require("./src/routes/v1Router")
 
 
 
@@ -20,9 +20,6 @@ require("dotenv").config()
 app.use(cors())
 app.use(express.json())
 app.use("/api/test", Router)
-
-
-
 
 
 

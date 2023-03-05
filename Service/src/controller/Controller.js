@@ -11,6 +11,7 @@ const that = module.exports = {
             const {
                 key, payload
             } = req.body
+            console.log(req.body)
 
             const data = await setPromise({
                 key,
